@@ -1,6 +1,7 @@
 import React from 'react'
-import ContentWrapper from '../../components/ContentWrapper/ContentWrapper'
-import SideBar from '../../components/SideBar/SideBar'
+import Feed from '../../components/Feed/Feed'
+import Form from '../../components/Form/Form'
+// import SideBar from '../../components/SideBar/SideBar'
 
 
 export default function Home() {
@@ -8,9 +9,8 @@ export default function Home() {
     <div className="bg-base-100 drawer drawer-mobile">
       <input id='drawer' className='drawer-toggle' type="checkbox"/>
       <>
-      <ContentWrapper/>
-      <SideBar/>
-      
+      <Feed/>
+      <Form/>
       
       </>
     </div>
