@@ -1,7 +1,6 @@
 import React from 'react'
 import Feed from '../../components/Feed/Feed'
-import Form from '../../components/Form/Form'
-// import SideBar from '../../components/SideBar/SideBar'
+import SideBar from '../../components/SideBar/SideBar'
 
 
 export default function Home() {
@@ -10,7 +9,7 @@ export default function Home() {
       <input id='drawer' className='drawer-toggle' type="checkbox"/>
       <>
       <Feed/>
-      <Form/>
+      <SideBar/>
       
       </>
     </div>
